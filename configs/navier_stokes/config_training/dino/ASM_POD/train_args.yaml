@@ -14,7 +14,6 @@ model: nn1_0
 num_input_reduced_basis: 16
 num_output_reduced_basis: 64
 num_train_functions: 16
-num_valid_functions: 256
 optimizer: adamw
 optimizer_params.lr: 0.005
 optimizer_params.weight_decay: 1.0e-12

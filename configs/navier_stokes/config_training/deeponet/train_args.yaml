@@ -12,7 +12,6 @@ lr_scheduler_params.gamma: 0.7
 lr_scheduler_params.step_size: 10
 model: nn1_0
 num_train_functions: 16
-num_valid_functions: 256
 optimizer: adamw
 optimizer_params.lr: 0.001
 optimizer_params.weight_decay: 1.0e-05
