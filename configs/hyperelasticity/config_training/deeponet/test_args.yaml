@@ -1,0 +1,14 @@
+num_test_functions: 500
+num_test_dm_directions: 128
+batch_size.branch: 8
+batch_size.trunk: all
+loss_weights.dm: null
+loss_weights.dx: null
+loss_weights.eval: 1.0
+test_milestones:
+- 128
+- 512
+- 2048
+- 8192
+- 32768
+

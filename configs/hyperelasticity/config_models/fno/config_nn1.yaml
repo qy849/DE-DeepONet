@@ -1,0 +1,7 @@
+name: nn1
+
+n_modes: 32
+hidden_channels: 64
+in_channels: 3
+out_channels: 2
+n_layers: 4

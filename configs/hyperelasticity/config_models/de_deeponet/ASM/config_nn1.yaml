@@ -1,0 +1,28 @@
+name: nn1
+
+output_dim: 2
+
+branch:
+  class: ResNet1d
+  params: 
+    input_dim: 16
+    output_dim: 128
+    hidden_dim: 128
+    hidden_depth: 3
+    activation: elu
+    init_func: kaiming_uniform
+
+trunk:
+  class: ResNet1d
+  params: 
+    input_dim: 64
+    output_dim: 256
+    hidden_dim: 256
+    hidden_depth: 3 
+    activation: relu
+    init_func: kaiming_uniform
+
+positional_encoding:
+  sigma: 0.5
+  input_dim: 2
+  output_dim: 64

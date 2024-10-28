@@ -1,0 +1,11 @@
+name: nn1
+
+branch:
+  class: ResNet1d
+  params: 
+    input_dim: 16
+    output_dim: 64
+    hidden_dim: 128
+    hidden_depth: 3
+    activation: elu
+    init_func: kaiming_normal

@@ -1,0 +1,598 @@
+----------------------------------------
+2024-10-28 00:50:06 - Start Program
+----------------------------------------
+Running: /work2/yuan/DE-DeepONet/data_generation/probability_measure/GRF_bilaplacian_2D.py with 64 processors
+GRF sampling elapsed time (rank 0, 32 samples): 0 m 1.0078 s
+----------------------------------------
+2024-10-28 00:50:08 - End Program
+Elapsed time: 0:00:01.959780
+----------------------------------------
+store the data in /work2/yuan/DE-DeepONet/results/navier_stokes/train_dataset
+----------------------------------------
+2024-10-28 00:50:12 - Start Program
+----------------------------------------
+Running: /work2/yuan/DE-DeepONet/data_generation/differential_equations/navier_stokes.py with 64 processors
+PDE solves elapsed time (rank 0, 24 samples): 1 m 1.2642 s
+----------------------------------------
+2024-10-28 00:51:27 - End Program
+Elapsed time: 0:01:14.223038
+----------------------------------------
+store the data in /work2/yuan/DE-DeepONet/results/navier_stokes/test_dataset
+----------------------------------------
+2024-10-28 00:51:31 - Start Program
+----------------------------------------
+Running: /work2/yuan/DE-DeepONet/data_generation/differential_equations/navier_stokes.py with 64 processors
+PDE solves elapsed time (rank 0, 8 samples): 0 m 20.4495 s
+----------------------------------------
+2024-10-28 00:52:01 - End Program
+Elapsed time: 0:00:29.389613
+----------------------------------------
+store the data in /work2/yuan/DE-DeepONet/results/navier_stokes/train_dataset
+----------------------------------------
+2024-10-28 00:52:04 - Start Program
+----------------------------------------
+Running: /work2/yuan/DE-DeepONet/data_generation/evaluation_labels/navier_stokes_evaluation_labels.py
+----------------------------------------
+2024-10-28 00:53:35 - End Program
+Elapsed time: 0:01:31.199378
+----------------------------------------
+store the data in /work2/yuan/DE-DeepONet/results/navier_stokes/test_dataset
+----------------------------------------
+2024-10-28 00:53:38 - Start Program
+----------------------------------------
+Running: /work2/yuan/DE-DeepONet/data_generation/evaluation_labels/navier_stokes_evaluation_labels.py
+----------------------------------------
+2024-10-28 00:54:09 - End Program
+Elapsed time: 0:00:31.190625
+----------------------------------------
+store the data in /work2/yuan/DE-DeepONet/results/navier_stokes/train_dataset
+----------------------------------------
+2024-10-28 00:54:11 - Start Program
+----------------------------------------
+Running: /work2/yuan/DE-DeepONet/data_generation/visualization/navier_stokes_plot_input_output.py
+----------------------------------------
+2024-10-28 00:54:19 - End Program
+Elapsed time: 0:00:07.308108
+----------------------------------------
+store the data in /work2/yuan/DE-DeepONet/results/navier_stokes/test_dataset
+----------------------------------------
+2024-10-28 00:54:22 - Start Program
+----------------------------------------
+Running: /work2/yuan/DE-DeepONet/data_generation/visualization/navier_stokes_plot_input_output.py
+----------------------------------------
+2024-10-28 00:54:29 - End Program
+Elapsed time: 0:00:06.894835
+----------------------------------------
+----------------------------------------
+2024-10-28 00:54:31 - Start Program
+----------------------------------------
+Running: /work2/yuan/DE-DeepONet/data_generation/input_reduced_basis/navier_stokes_ASM_input_reduced_basis.py with 16 processors
+doublePassG elapsed time: 0 m 9.3651 s
+----------------------------------------
+2024-10-28 00:54:42 - End Program
+Elapsed time: 0:00:10.135262
+----------------------------------------
+----------------------------------------
+2024-10-28 00:54:44 - Start Program
+----------------------------------------
+Running: /work2/yuan/DE-DeepONet/data_generation/input_reduced_basis/KLE_input_reduced_basis.py
+doublePassG elapsed time: 0 m 1.1208 s
+----------------------------------------
+2024-10-28 00:54:45 - End Program
+Elapsed time: 0:00:01.211029
+----------------------------------------
+----------------------------------------
+2024-10-28 00:54:48 - Start Program
+----------------------------------------
+Running: /work2/yuan/DE-DeepONet/data_generation/input_reduced_basis/Random_input_reduced_basis.py with 16 processors
+----------------------------------------
+2024-10-28 00:54:49 - End Program
+Elapsed time: 0:00:00.709633
+----------------------------------------
+----------------------------------------
+2024-10-28 00:54:52 - Start Program
+----------------------------------------
+Running: /work2/yuan/DE-DeepONet/data_generation/visualization/plot_input_reduced_basis.py
+----------------------------------------
+2024-10-28 00:55:02 - End Program
+Elapsed time: 0:00:10.160571
+----------------------------------------
+----------------------------------------
+2024-10-28 00:55:05 - Start Program
+----------------------------------------
+Running: /work2/yuan/DE-DeepONet/data_generation/output_reduced_basis/navier_stokes_ASM_output_reduced_basis.py with 16 processors
+----------------------------------------
+2024-10-28 00:56:58 - End Program
+Elapsed time: 0:01:53.772780
+----------------------------------------
+----------------------------------------
+2024-10-28 00:57:01 - Start Program
+----------------------------------------
+Running: /work2/yuan/DE-DeepONet/data_generation/output_reduced_basis/navier_stokes_POD_output_reduced_basis.py
+----------------------------------------
+2024-10-28 00:57:04 - End Program
+Elapsed time: 0:00:02.463402
+----------------------------------------
+----------------------------------------
+2024-10-28 00:57:06 - Start Program
+----------------------------------------
+Running: /work2/yuan/DE-DeepONet/data_generation/visualization/navier_stokes_plot_output_reduced_basis.py
+----------------------------------------
+2024-10-28 00:58:03 - End Program
+Elapsed time: 0:00:56.997685
+----------------------------------------
+store the data in /work2/yuan/DE-DeepONet/results/navier_stokes/train_dataset
+----------------------------------------
+2024-10-28 00:58:06 - Start Program
+----------------------------------------
+Running: /work2/yuan/DE-DeepONet/data_generation/reduced_inputs/ASM_reduced_inputs.py
+----------------------------------------
+2024-10-28 00:58:06 - End Program
+Elapsed time: 0:00:00.134648
+----------------------------------------
+store the data in /work2/yuan/DE-DeepONet/results/navier_stokes/test_dataset
+----------------------------------------
+2024-10-28 00:58:09 - Start Program
+----------------------------------------
+Running: /work2/yuan/DE-DeepONet/data_generation/reduced_inputs/ASM_reduced_inputs.py
+----------------------------------------
+2024-10-28 00:58:09 - End Program
+Elapsed time: 0:00:00.111504
+----------------------------------------
+store the data in /work2/yuan/DE-DeepONet/results/navier_stokes/train_dataset
+----------------------------------------
+2024-10-28 00:58:12 - Start Program
+----------------------------------------
+Running: /work2/yuan/DE-DeepONet/data_generation/reduced_inputs/KLE_reduced_inputs.py
+----------------------------------------
+2024-10-28 00:58:12 - End Program
+Elapsed time: 0:00:00.115804
+----------------------------------------
+store the data in /work2/yuan/DE-DeepONet/results/navier_stokes/test_dataset
+----------------------------------------
+2024-10-28 00:58:14 - Start Program
+----------------------------------------
+Running: /work2/yuan/DE-DeepONet/data_generation/reduced_inputs/KLE_reduced_inputs.py
+----------------------------------------
+2024-10-28 00:58:15 - End Program
+Elapsed time: 0:00:00.093700
+----------------------------------------
+store the data in /work2/yuan/DE-DeepONet/results/navier_stokes/train_dataset
+----------------------------------------
+2024-10-28 00:58:17 - Start Program
+----------------------------------------
+Running: /work2/yuan/DE-DeepONet/data_generation/reduced_outputs/navier_stokes_ASM_reduced_outputs.py
+Computing dx_loss_weighted_matrix for later use...
+----------------------------------------
+2024-10-28 00:58:34 - End Program
+Elapsed time: 0:00:16.908997
+----------------------------------------
+store the data in /work2/yuan/DE-DeepONet/results/navier_stokes/test_dataset
+----------------------------------------
+2024-10-28 00:58:37 - Start Program
+----------------------------------------
+Running: /work2/yuan/DE-DeepONet/data_generation/reduced_outputs/navier_stokes_ASM_reduced_outputs.py
+Computing dx_loss_weighted_matrix for later use...
+----------------------------------------
+2024-10-28 00:58:53 - End Program
+Elapsed time: 0:00:16.703995
+----------------------------------------
+store the data in /work2/yuan/DE-DeepONet/results/navier_stokes/train_dataset
+----------------------------------------
+2024-10-28 00:58:56 - Start Program
+----------------------------------------
+Running: /work2/yuan/DE-DeepONet/data_generation/reduced_outputs/navier_stokes_POD_reduced_outputs.py
+Computing dx_loss_weighted_matrix for later use...
+----------------------------------------
+2024-10-28 00:59:13 - End Program
+Elapsed time: 0:00:16.914341
+----------------------------------------
+store the data in /work2/yuan/DE-DeepONet/results/navier_stokes/test_dataset
+----------------------------------------
+2024-10-28 00:59:16 - Start Program
+----------------------------------------
+Running: /work2/yuan/DE-DeepONet/data_generation/reduced_outputs/navier_stokes_POD_reduced_outputs.py
+Computing dx_loss_weighted_matrix for later use...
+----------------------------------------
+2024-10-28 00:59:32 - End Program
+Elapsed time: 0:00:16.569501
+----------------------------------------
+store the data in /work2/yuan/DE-DeepONet/results/navier_stokes/train_dataset
+----------------------------------------
+2024-10-28 00:59:35 - Start Program
+----------------------------------------
+Running: /work2/yuan/DE-DeepONet/data_generation/low_rank_approximations/input_low_rank_approximations.py with 1 ASM input reduced basis.
+----------------------------------------
+2024-10-28 00:59:37 - End Program
+Elapsed time: 0:00:02.393550
+----------------------------------------
+store the data in /work2/yuan/DE-DeepONet/results/navier_stokes/test_dataset
+----------------------------------------
+2024-10-28 00:59:40 - Start Program
+----------------------------------------
+Running: /work2/yuan/DE-DeepONet/data_generation/low_rank_approximations/input_low_rank_approximations.py with 1 ASM input reduced basis.
+----------------------------------------
+2024-10-28 00:59:42 - End Program
+Elapsed time: 0:00:02.350114
+----------------------------------------
+store the data in /work2/yuan/DE-DeepONet/results/navier_stokes/train_dataset
+----------------------------------------
+2024-10-28 00:59:45 - Start Program
+----------------------------------------
+Running: /work2/yuan/DE-DeepONet/data_generation/low_rank_approximations/input_low_rank_approximations.py with 2 ASM input reduced basis.
+----------------------------------------
+2024-10-28 00:59:47 - End Program
+Elapsed time: 0:00:02.348122
+----------------------------------------
+store the data in /work2/yuan/DE-DeepONet/results/navier_stokes/test_dataset
+----------------------------------------
+2024-10-28 00:59:50 - Start Program
+----------------------------------------
+Running: /work2/yuan/DE-DeepONet/data_generation/low_rank_approximations/input_low_rank_approximations.py with 2 ASM input reduced basis.
+----------------------------------------
+2024-10-28 00:59:53 - End Program
+Elapsed time: 0:00:02.357703
+----------------------------------------
+store the data in /work2/yuan/DE-DeepONet/results/navier_stokes/train_dataset
+----------------------------------------
+2024-10-28 00:59:55 - Start Program
+----------------------------------------
+Running: /work2/yuan/DE-DeepONet/data_generation/low_rank_approximations/input_low_rank_approximations.py with 4 ASM input reduced basis.
+----------------------------------------
+2024-10-28 00:59:58 - End Program
+Elapsed time: 0:00:02.409099
+----------------------------------------
+store the data in /work2/yuan/DE-DeepONet/results/navier_stokes/test_dataset
+----------------------------------------
+2024-10-28 01:00:00 - Start Program
+----------------------------------------
+Running: /work2/yuan/DE-DeepONet/data_generation/low_rank_approximations/input_low_rank_approximations.py with 4 ASM input reduced basis.
+----------------------------------------
+2024-10-28 01:00:03 - End Program
+Elapsed time: 0:00:02.347626
+----------------------------------------
+store the data in /work2/yuan/DE-DeepONet/results/navier_stokes/train_dataset
+----------------------------------------
+2024-10-28 01:00:05 - Start Program
+----------------------------------------
+Running: /work2/yuan/DE-DeepONet/data_generation/low_rank_approximations/input_low_rank_approximations.py with 8 ASM input reduced basis.
+----------------------------------------
+2024-10-28 01:00:08 - End Program
+Elapsed time: 0:00:02.555812
+----------------------------------------
+store the data in /work2/yuan/DE-DeepONet/results/navier_stokes/test_dataset
+----------------------------------------
+2024-10-28 01:00:11 - Start Program
+----------------------------------------
+Running: /work2/yuan/DE-DeepONet/data_generation/low_rank_approximations/input_low_rank_approximations.py with 8 ASM input reduced basis.
+----------------------------------------
+2024-10-28 01:00:13 - End Program
+Elapsed time: 0:00:02.380027
+----------------------------------------
+store the data in /work2/yuan/DE-DeepONet/results/navier_stokes/train_dataset
+----------------------------------------
+2024-10-28 01:00:16 - Start Program
+----------------------------------------
+Running: /work2/yuan/DE-DeepONet/data_generation/low_rank_approximations/input_low_rank_approximations.py with 16 ASM input reduced basis.
+----------------------------------------
+2024-10-28 01:00:18 - End Program
+Elapsed time: 0:00:02.379789
+----------------------------------------
+store the data in /work2/yuan/DE-DeepONet/results/navier_stokes/test_dataset
+----------------------------------------
+2024-10-28 01:00:21 - Start Program
+----------------------------------------
+Running: /work2/yuan/DE-DeepONet/data_generation/low_rank_approximations/input_low_rank_approximations.py with 16 ASM input reduced basis.
+----------------------------------------
+2024-10-28 01:00:24 - End Program
+Elapsed time: 0:00:02.439063
+----------------------------------------
+store the data in /work2/yuan/DE-DeepONet/results/navier_stokes/train_dataset
+----------------------------------------
+2024-10-28 01:00:26 - Start Program
+----------------------------------------
+Running: /work2/yuan/DE-DeepONet/data_generation/low_rank_approximations/input_low_rank_approximations.py with 1 KLE input reduced basis.
+----------------------------------------
+2024-10-28 01:00:29 - End Program
+Elapsed time: 0:00:02.370426
+----------------------------------------
+store the data in /work2/yuan/DE-DeepONet/results/navier_stokes/test_dataset
+----------------------------------------
+2024-10-28 01:00:32 - Start Program
+----------------------------------------
+Running: /work2/yuan/DE-DeepONet/data_generation/low_rank_approximations/input_low_rank_approximations.py with 1 KLE input reduced basis.
+----------------------------------------
+2024-10-28 01:00:34 - End Program
+Elapsed time: 0:00:02.324238
+----------------------------------------
+store the data in /work2/yuan/DE-DeepONet/results/navier_stokes/train_dataset
+----------------------------------------
+2024-10-28 01:00:37 - Start Program
+----------------------------------------
+Running: /work2/yuan/DE-DeepONet/data_generation/low_rank_approximations/input_low_rank_approximations.py with 2 KLE input reduced basis.
+----------------------------------------
+2024-10-28 01:00:39 - End Program
+Elapsed time: 0:00:02.409169
+----------------------------------------
+store the data in /work2/yuan/DE-DeepONet/results/navier_stokes/test_dataset
+----------------------------------------
+2024-10-28 01:00:42 - Start Program
+----------------------------------------
+Running: /work2/yuan/DE-DeepONet/data_generation/low_rank_approximations/input_low_rank_approximations.py with 2 KLE input reduced basis.
+----------------------------------------
+2024-10-28 01:00:44 - End Program
+Elapsed time: 0:00:02.458790
+----------------------------------------
+store the data in /work2/yuan/DE-DeepONet/results/navier_stokes/train_dataset
+----------------------------------------
+2024-10-28 01:00:47 - Start Program
+----------------------------------------
+Running: /work2/yuan/DE-DeepONet/data_generation/low_rank_approximations/input_low_rank_approximations.py with 4 KLE input reduced basis.
+----------------------------------------
+2024-10-28 01:00:49 - End Program
+Elapsed time: 0:00:02.391333
+----------------------------------------
+store the data in /work2/yuan/DE-DeepONet/results/navier_stokes/test_dataset
+----------------------------------------
+2024-10-28 01:00:52 - Start Program
+----------------------------------------
+Running: /work2/yuan/DE-DeepONet/data_generation/low_rank_approximations/input_low_rank_approximations.py with 4 KLE input reduced basis.
+----------------------------------------
+2024-10-28 01:00:54 - End Program
+Elapsed time: 0:00:02.352181
+----------------------------------------
+store the data in /work2/yuan/DE-DeepONet/results/navier_stokes/train_dataset
+----------------------------------------
+2024-10-28 01:00:57 - Start Program
+----------------------------------------
+Running: /work2/yuan/DE-DeepONet/data_generation/low_rank_approximations/input_low_rank_approximations.py with 8 KLE input reduced basis.
+----------------------------------------
+2024-10-28 01:01:00 - End Program
+Elapsed time: 0:00:02.374410
+----------------------------------------
+store the data in /work2/yuan/DE-DeepONet/results/navier_stokes/test_dataset
+----------------------------------------
+2024-10-28 01:01:02 - Start Program
+----------------------------------------
+Running: /work2/yuan/DE-DeepONet/data_generation/low_rank_approximations/input_low_rank_approximations.py with 8 KLE input reduced basis.
+----------------------------------------
+2024-10-28 01:01:05 - End Program
+Elapsed time: 0:00:02.355664
+----------------------------------------
+store the data in /work2/yuan/DE-DeepONet/results/navier_stokes/train_dataset
+----------------------------------------
+2024-10-28 01:01:07 - Start Program
+----------------------------------------
+Running: /work2/yuan/DE-DeepONet/data_generation/low_rank_approximations/input_low_rank_approximations.py with 16 KLE input reduced basis.
+----------------------------------------
+2024-10-28 01:01:10 - End Program
+Elapsed time: 0:00:02.787396
+----------------------------------------
+store the data in /work2/yuan/DE-DeepONet/results/navier_stokes/test_dataset
+----------------------------------------
+2024-10-28 01:01:13 - Start Program
+----------------------------------------
+Running: /work2/yuan/DE-DeepONet/data_generation/low_rank_approximations/input_low_rank_approximations.py with 16 KLE input reduced basis.
+----------------------------------------
+2024-10-28 01:01:15 - End Program
+Elapsed time: 0:00:02.366084
+----------------------------------------
+store the data in /work2/yuan/DE-DeepONet/results/navier_stokes/train_dataset
+----------------------------------------
+2024-10-28 01:01:18 - Start Program
+----------------------------------------
+Running: /work2/yuan/DE-DeepONet/data_generation/low_rank_approximations/navier_stokes_output_low_rank_approximations.py with 64 POD output reduced basis.
+----------------------------------------
+2024-10-28 01:01:23 - End Program
+Elapsed time: 0:00:05.349858
+----------------------------------------
+store the data in /work2/yuan/DE-DeepONet/results/navier_stokes/test_dataset
+----------------------------------------
+2024-10-28 01:01:26 - Start Program
+----------------------------------------
+Running: /work2/yuan/DE-DeepONet/data_generation/low_rank_approximations/navier_stokes_output_low_rank_approximations.py with 64 POD output reduced basis.
+----------------------------------------
+2024-10-28 01:01:31 - End Program
+Elapsed time: 0:00:04.965276
+----------------------------------------
+store the data in /work2/yuan/DE-DeepONet/results/navier_stokes/train_dataset
+----------------------------------------
+2024-10-28 01:01:34 - Start Program
+----------------------------------------
+Running: /work2/yuan/DE-DeepONet/data_generation/low_rank_approximations/navier_stokes_output_low_rank_approximations.py with 64 ASM output reduced basis.
+----------------------------------------
+2024-10-28 01:01:39 - End Program
+Elapsed time: 0:00:05.288512
+----------------------------------------
+store the data in /work2/yuan/DE-DeepONet/results/navier_stokes/test_dataset
+----------------------------------------
+2024-10-28 01:01:41 - Start Program
+----------------------------------------
+Running: /work2/yuan/DE-DeepONet/data_generation/low_rank_approximations/navier_stokes_output_low_rank_approximations.py with 64 ASM output reduced basis.
+----------------------------------------
+2024-10-28 01:01:46 - End Program
+Elapsed time: 0:00:04.926560
+----------------------------------------
+run with ASM basis, store the data in /work2/yuan/DE-DeepONet/results/navier_stokes/train_dataset
+----------------------------------------
+2024-10-28 01:01:50 - Start Program
+----------------------------------------
+Running: /work2/yuan/DE-DeepONet/data_generation/derivative_labels/navier_stokes_derivative_m_labels.py with 64 processors
+Generating dm labels elapsed time (rank 0, 24 samples): 1 m 4.0630 s
+----------------------------------------
+2024-10-28 01:02:58 - End Program
+Elapsed time: 0:01:07.550335
+----------------------------------------
+run with ASM basis, store the data in /work2/yuan/DE-DeepONet/results/navier_stokes/test_dataset
+----------------------------------------
+2024-10-28 01:03:11 - Start Program
+----------------------------------------
+Running: /work2/yuan/DE-DeepONet/data_generation/derivative_labels/navier_stokes_derivative_m_labels.py with 64 processors
+Generating dm labels elapsed time (rank 0, 8 samples): 0 m 20.4631 s
+----------------------------------------
+2024-10-28 01:03:34 - End Program
+Elapsed time: 0:00:23.459076
+----------------------------------------
+run with KLE basis, store the data in /work2/yuan/DE-DeepONet/results/navier_stokes/train_dataset
+----------------------------------------
+2024-10-28 01:03:49 - Start Program
+----------------------------------------
+Running: /work2/yuan/DE-DeepONet/data_generation/derivative_labels/navier_stokes_derivative_m_labels.py with 64 processors
+Generating dm labels elapsed time (rank 0, 24 samples): 1 m 1.0551 s
+----------------------------------------
+2024-10-28 01:04:54 - End Program
+Elapsed time: 0:01:04.699749
+----------------------------------------
+run with KLE basis, store the data in /work2/yuan/DE-DeepONet/results/navier_stokes/test_dataset
+----------------------------------------
+2024-10-28 01:05:12 - Start Program
+----------------------------------------
+Running: /work2/yuan/DE-DeepONet/data_generation/derivative_labels/navier_stokes_derivative_m_labels.py with 64 processors
+Generating dm labels elapsed time (rank 0, 8 samples): 0 m 20.3757 s
+----------------------------------------
+2024-10-28 01:05:35 - End Program
+Elapsed time: 0:00:23.228744
+----------------------------------------
+run with Random basis, store the data in /work2/yuan/DE-DeepONet/results/navier_stokes/train_dataset
+----------------------------------------
+2024-10-28 01:05:43 - Start Program
+----------------------------------------
+Running: /work2/yuan/DE-DeepONet/data_generation/derivative_labels/navier_stokes_derivative_m_labels.py with 64 processors
+Generating dm labels elapsed time (rank 0, 24 samples): 1 m 1.4020 s
+----------------------------------------
+2024-10-28 01:06:48 - End Program
+Elapsed time: 0:01:05.131166
+----------------------------------------
+run with Random basis, store the data in /work2/yuan/DE-DeepONet/results/navier_stokes/test_dataset
+----------------------------------------
+2024-10-28 01:07:04 - Start Program
+----------------------------------------
+Running: /work2/yuan/DE-DeepONet/data_generation/derivative_labels/navier_stokes_derivative_m_labels.py with 64 processors
+Generating dm labels elapsed time (rank 0, 8 samples): 0 m 20.5497 s
+----------------------------------------
+2024-10-28 01:07:27 - End Program
+Elapsed time: 0:00:23.148269
+----------------------------------------
+store the data in /work2/yuan/DE-DeepONet/results/navier_stokes/train_dataset
+----------------------------------------
+2024-10-28 01:07:43 - Start Program
+----------------------------------------
+Running: /work2/yuan/DE-DeepONet/data_generation/derivative_labels/navier_stokes_derivative_x_labels.py with 64 processors
+Generate dx labels elapsed time (rank 0, 24 samples): 0 m 22.8337 s
+----------------------------------------
+2024-10-28 01:08:08 - End Program
+Elapsed time: 0:00:25.323166
+----------------------------------------
+store the data in /work2/yuan/DE-DeepONet/results/navier_stokes/test_dataset
+----------------------------------------
+2024-10-28 01:08:17 - Start Program
+----------------------------------------
+Running: /work2/yuan/DE-DeepONet/data_generation/derivative_labels/navier_stokes_derivative_x_labels.py with 64 processors
+Generate dx labels elapsed time (rank 0, 8 samples): 0 m 11.6891 s
+----------------------------------------
+2024-10-28 01:08:31 - End Program
+Elapsed time: 0:00:13.990117
+----------------------------------------
+----------------------------------------
+2024-10-28 01:08:36 - Start Program
+----------------------------------------
+Running: /work2/yuan/DE-DeepONet/data_generation/testing_dm/GRF_bilaplacian_2D_for_testing_dm.py with 64 processors
+----------------------------------------
+2024-10-28 01:08:37 - End Program
+Elapsed time: 0:00:00.950491
+----------------------------------------
+----------------------------------------
+2024-10-28 01:08:41 - Start Program
+----------------------------------------
+Running: /work2/yuan/DE-DeepONet/data_generation/testing_dm/navier_stokes_derivative_m_labels_for_testing_dm.py with 64 processors
+----------------------------------------
+2024-10-28 01:10:49 - End Program
+Elapsed time: 0:02:07.306683
+----------------------------------------
+----------------------------------------
+2024-10-28 01:11:23 - Start Program
+----------------------------------------
+Running: /work2/yuan/DE-DeepONet/data_generation/testing_dm/transformation_matrices.py
+----------------------------------------
+2024-10-28 01:11:23 - End Program
+Elapsed time: 0:00:00.268066
+----------------------------------------
+run with ASM input basis and POD output basis, store the data in /work2/yuan/DE-DeepONet/results/navier_stokes/train_dataset
+----------------------------------------
+2024-10-28 01:11:27 - Start Program
+----------------------------------------
+Running: /work2/yuan/DE-DeepONet/data_generation/derivative_labels/navier_stokes_reduced_jacobian_labels.py with 64 processors
+----------------------------------------
+2024-10-28 01:12:22 - End Program
+Elapsed time: 0:00:55.662618
+----------------------------------------
+run with ASM input basis and POD output basis, store the data in /work2/yuan/DE-DeepONet/results/navier_stokes/test_dataset
+----------------------------------------
+2024-10-28 01:12:27 - Start Program
+----------------------------------------
+Running: /work2/yuan/DE-DeepONet/data_generation/derivative_labels/navier_stokes_reduced_jacobian_labels.py with 64 processors
+----------------------------------------
+2024-10-28 01:12:53 - End Program
+Elapsed time: 0:00:25.439428
+----------------------------------------
+run with ASM input basis and ASM output basis, store the data in /work2/yuan/DE-DeepONet/results/navier_stokes/train_dataset
+----------------------------------------
+2024-10-28 01:12:57 - Start Program
+----------------------------------------
+Running: /work2/yuan/DE-DeepONet/data_generation/derivative_labels/navier_stokes_reduced_jacobian_labels.py with 64 processors
+----------------------------------------
+2024-10-28 01:13:56 - End Program
+Elapsed time: 0:00:59.496393
+----------------------------------------
+run with ASM input basis and ASM output basis, store the data in /work2/yuan/DE-DeepONet/results/navier_stokes/test_dataset
+----------------------------------------
+2024-10-28 01:14:01 - Start Program
+----------------------------------------
+Running: /work2/yuan/DE-DeepONet/data_generation/derivative_labels/navier_stokes_reduced_jacobian_labels.py with 64 processors
+----------------------------------------
+2024-10-28 01:14:23 - End Program
+Elapsed time: 0:00:21.967754
+----------------------------------------
+----------------------------------------
+2024-10-28 01:14:26 - Start Program
+----------------------------------------
+Running: /work2/yuan/DE-DeepONet/data_generation/others/compute_dm_direction_vertex_values.py
+----------------------------------------
+2024-10-28 01:14:27 - End Program
+Elapsed time: 0:00:01.143631
+----------------------------------------
+----------------------------------------
+2024-10-28 01:14:30 - Start Program
+----------------------------------------
+Running: /work2/yuan/DE-DeepONet/data_generation/others/compute_dm_direction_vertex_values.py
+----------------------------------------
+2024-10-28 01:14:31 - End Program
+Elapsed time: 0:00:01.136566
+----------------------------------------
+----------------------------------------
+2024-10-28 01:14:33 - Start Program
+----------------------------------------
+Running: /work2/yuan/DE-DeepONet/data_generation/others/compute_dm_direction_vertex_values.py
+----------------------------------------
+2024-10-28 01:14:34 - End Program
+Elapsed time: 0:00:01.157553
+----------------------------------------
+----------------------------------------
+2024-10-28 01:14:37 - Start Program
+----------------------------------------
+Running: /work2/yuan/DE-DeepONet/data_generation/others/compute_dm_direction_vertex_values.py
+----------------------------------------
+2024-10-28 01:14:38 - End Program
+Elapsed time: 0:00:01.354241
+----------------------------------------
+----------------------------------------
+2024-10-28 01:14:41 - Start Program
+----------------------------------------
+Running: /work2/yuan/DE-DeepONet/data_generation/others/compute_output_finite_element_basis_vertex_values.py
+Number of vertices: 4225
+Number of finite element basis: 66050
+Elapsed time: 2 m 27.7008 s
+----------------------------------------
+2024-10-28 01:17:09 - End Program
+Elapsed time: 0:02:27.703493
+----------------------------------------

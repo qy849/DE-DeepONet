@@ -1,0 +1,498 @@
+----------------------------------------
+2024-10-28 00:39:54 - Start Program
+----------------------------------------
+Running: /work2/yuan/DE-DeepONet/data_generation/probability_measure/GRF_bilaplacian_2D.py with 64 processors
+GRF sampling elapsed time (rank 0, 32 samples): 0 m 0.4958 s
+----------------------------------------
+2024-10-28 00:39:55 - End Program
+Elapsed time: 0:00:01.304044
+----------------------------------------
+----------------------------------------
+2024-10-28 00:40:00 - Start Program
+----------------------------------------
+Running: /work2/yuan/DE-DeepONet/data_generation/differential_equations/hyperelasticity.py with 64 processors
+PDE solves elapsed time (rank 0, 24 samples): 0 m 4.7020 s
+PDE solves elapsed time (rank 0, 8 samples): 0 m 1.4182 s
+----------------------------------------
+2024-10-28 00:40:09 - End Program
+Elapsed time: 0:00:09.517481
+----------------------------------------
+----------------------------------------
+2024-10-28 00:40:12 - Start Program
+----------------------------------------
+Running: /work2/yuan/DE-DeepONet/data_generation/evaluation_labels/hyperelasticity_evaluation_labels.py
+----------------------------------------
+2024-10-28 00:40:30 - End Program
+Elapsed time: 0:00:17.380095
+----------------------------------------
+----------------------------------------
+2024-10-28 00:40:32 - Start Program
+----------------------------------------
+Running: /work2/yuan/DE-DeepONet/data_generation/visualization/hyperelasticity_plot_input_output.py
+----------------------------------------
+2024-10-28 00:40:41 - End Program
+Elapsed time: 0:00:08.148690
+----------------------------------------
+----------------------------------------
+2024-10-28 00:40:43 - Start Program
+----------------------------------------
+Running: /work2/yuan/DE-DeepONet/data_generation/input_reduced_basis/hyperelasticity_ASM_input_reduced_basis.py with 16 processors
+doublePassG elapsed time: 0 m 1.5435 s
+----------------------------------------
+2024-10-28 00:40:45 - End Program
+Elapsed time: 0:00:01.705049
+----------------------------------------
+----------------------------------------
+2024-10-28 00:40:48 - Start Program
+----------------------------------------
+Running: /work2/yuan/DE-DeepONet/data_generation/input_reduced_basis/KLE_input_reduced_basis.py
+doublePassG elapsed time: 0 m 0.3735 s
+----------------------------------------
+2024-10-28 00:40:48 - End Program
+Elapsed time: 0:00:00.428282
+----------------------------------------
+----------------------------------------
+2024-10-28 00:40:51 - Start Program
+----------------------------------------
+Running: /work2/yuan/DE-DeepONet/data_generation/input_reduced_basis/Random_input_reduced_basis.py with 16 processors
+----------------------------------------
+2024-10-28 00:40:52 - End Program
+Elapsed time: 0:00:00.634739
+----------------------------------------
+----------------------------------------
+2024-10-28 00:40:54 - Start Program
+----------------------------------------
+Running: /work2/yuan/DE-DeepONet/data_generation/visualization/plot_input_reduced_basis.py
+----------------------------------------
+2024-10-28 00:41:03 - End Program
+Elapsed time: 0:00:08.353326
+----------------------------------------
+----------------------------------------
+2024-10-28 00:41:06 - Start Program
+----------------------------------------
+Running: /work2/yuan/DE-DeepONet/data_generation/output_reduced_basis/hyperelasticity_ASM_output_reduced_basis.py with 16 processors
+----------------------------------------
+2024-10-28 00:41:22 - End Program
+Elapsed time: 0:00:16.206372
+----------------------------------------
+----------------------------------------
+2024-10-28 00:41:24 - Start Program
+----------------------------------------
+Running: /work2/yuan/DE-DeepONet/data_generation/output_reduced_basis/hyperelasticity_POD_output_reduced_basis.py
+----------------------------------------
+2024-10-28 00:41:25 - End Program
+Elapsed time: 0:00:00.130444
+----------------------------------------
+----------------------------------------
+2024-10-28 00:41:27 - Start Program
+----------------------------------------
+Running: /work2/yuan/DE-DeepONet/data_generation/visualization/hyperelasticity_plot_output_reduced_basis.py
+----------------------------------------
+2024-10-28 00:42:12 - End Program
+Elapsed time: 0:00:44.897808
+----------------------------------------
+store the data in /work2/yuan/DE-DeepONet/results/hyperelasticity/train_dataset
+----------------------------------------
+2024-10-28 00:42:15 - Start Program
+----------------------------------------
+Running: /work2/yuan/DE-DeepONet/data_generation/reduced_inputs/ASM_reduced_inputs.py
+----------------------------------------
+2024-10-28 00:42:15 - End Program
+Elapsed time: 0:00:00.078828
+----------------------------------------
+store the data in /work2/yuan/DE-DeepONet/results/hyperelasticity/test_dataset
+----------------------------------------
+2024-10-28 00:42:18 - Start Program
+----------------------------------------
+Running: /work2/yuan/DE-DeepONet/data_generation/reduced_inputs/ASM_reduced_inputs.py
+----------------------------------------
+2024-10-28 00:42:18 - End Program
+Elapsed time: 0:00:00.062382
+----------------------------------------
+store the data in /work2/yuan/DE-DeepONet/results/hyperelasticity/train_dataset
+----------------------------------------
+2024-10-28 00:42:20 - Start Program
+----------------------------------------
+Running: /work2/yuan/DE-DeepONet/data_generation/reduced_inputs/KLE_reduced_inputs.py
+----------------------------------------
+2024-10-28 00:42:21 - End Program
+Elapsed time: 0:00:00.072927
+----------------------------------------
+store the data in /work2/yuan/DE-DeepONet/results/hyperelasticity/test_dataset
+----------------------------------------
+2024-10-28 00:42:23 - Start Program
+----------------------------------------
+Running: /work2/yuan/DE-DeepONet/data_generation/reduced_inputs/KLE_reduced_inputs.py
+----------------------------------------
+2024-10-28 00:42:23 - End Program
+Elapsed time: 0:00:00.053397
+----------------------------------------
+----------------------------------------
+2024-10-28 00:42:26 - Start Program
+----------------------------------------
+Running: /work2/yuan/DE-DeepONet/data_generation/reduced_outputs/hyperelasticity_ASM_reduced_outputs.py
+Computing dx_loss_weighted_matrix for later use...
+----------------------------------------
+2024-10-28 00:42:26 - End Program
+Elapsed time: 0:00:00.411371
+----------------------------------------
+----------------------------------------
+2024-10-28 00:42:29 - Start Program
+----------------------------------------
+Running: /work2/yuan/DE-DeepONet/data_generation/reduced_outputs/hyperelasticity_POD_reduced_outputs.py
+Computing dx_loss_weighted_matrix for later use...
+----------------------------------------
+2024-10-28 00:42:29 - End Program
+Elapsed time: 0:00:00.411629
+----------------------------------------
+store the data in /work2/yuan/DE-DeepONet/results/hyperelasticity/train_dataset
+----------------------------------------
+2024-10-28 00:42:32 - Start Program
+----------------------------------------
+Running: /work2/yuan/DE-DeepONet/data_generation/low_rank_approximations/input_low_rank_approximations.py with 1 ASM input reduced basis.
+----------------------------------------
+2024-10-28 00:42:34 - End Program
+Elapsed time: 0:00:02.013045
+----------------------------------------
+store the data in /work2/yuan/DE-DeepONet/results/hyperelasticity/test_dataset
+----------------------------------------
+2024-10-28 00:42:37 - Start Program
+----------------------------------------
+Running: /work2/yuan/DE-DeepONet/data_generation/low_rank_approximations/input_low_rank_approximations.py with 1 ASM input reduced basis.
+----------------------------------------
+2024-10-28 00:42:39 - End Program
+Elapsed time: 0:00:01.987832
+----------------------------------------
+store the data in /work2/yuan/DE-DeepONet/results/hyperelasticity/train_dataset
+----------------------------------------
+2024-10-28 00:42:42 - Start Program
+----------------------------------------
+Running: /work2/yuan/DE-DeepONet/data_generation/low_rank_approximations/input_low_rank_approximations.py with 2 ASM input reduced basis.
+----------------------------------------
+2024-10-28 00:42:44 - End Program
+Elapsed time: 0:00:02.038850
+----------------------------------------
+store the data in /work2/yuan/DE-DeepONet/results/hyperelasticity/test_dataset
+----------------------------------------
+2024-10-28 00:42:46 - Start Program
+----------------------------------------
+Running: /work2/yuan/DE-DeepONet/data_generation/low_rank_approximations/input_low_rank_approximations.py with 2 ASM input reduced basis.
+----------------------------------------
+2024-10-28 00:42:48 - End Program
+Elapsed time: 0:00:01.991390
+----------------------------------------
+store the data in /work2/yuan/DE-DeepONet/results/hyperelasticity/train_dataset
+----------------------------------------
+2024-10-28 00:42:51 - Start Program
+----------------------------------------
+Running: /work2/yuan/DE-DeepONet/data_generation/low_rank_approximations/input_low_rank_approximations.py with 4 ASM input reduced basis.
+----------------------------------------
+2024-10-28 00:42:53 - End Program
+Elapsed time: 0:00:01.975126
+----------------------------------------
+store the data in /work2/yuan/DE-DeepONet/results/hyperelasticity/test_dataset
+----------------------------------------
+2024-10-28 00:42:56 - Start Program
+----------------------------------------
+Running: /work2/yuan/DE-DeepONet/data_generation/low_rank_approximations/input_low_rank_approximations.py with 4 ASM input reduced basis.
+----------------------------------------
+2024-10-28 00:42:58 - End Program
+Elapsed time: 0:00:01.952482
+----------------------------------------
+store the data in /work2/yuan/DE-DeepONet/results/hyperelasticity/train_dataset
+----------------------------------------
+2024-10-28 00:43:00 - Start Program
+----------------------------------------
+Running: /work2/yuan/DE-DeepONet/data_generation/low_rank_approximations/input_low_rank_approximations.py with 8 ASM input reduced basis.
+----------------------------------------
+2024-10-28 00:43:02 - End Program
+Elapsed time: 0:00:01.955912
+----------------------------------------
+store the data in /work2/yuan/DE-DeepONet/results/hyperelasticity/test_dataset
+----------------------------------------
+2024-10-28 00:43:05 - Start Program
+----------------------------------------
+Running: /work2/yuan/DE-DeepONet/data_generation/low_rank_approximations/input_low_rank_approximations.py with 8 ASM input reduced basis.
+----------------------------------------
+2024-10-28 00:43:07 - End Program
+Elapsed time: 0:00:01.954669
+----------------------------------------
+store the data in /work2/yuan/DE-DeepONet/results/hyperelasticity/train_dataset
+----------------------------------------
+2024-10-28 00:43:10 - Start Program
+----------------------------------------
+Running: /work2/yuan/DE-DeepONet/data_generation/low_rank_approximations/input_low_rank_approximations.py with 16 ASM input reduced basis.
+----------------------------------------
+2024-10-28 00:43:12 - End Program
+Elapsed time: 0:00:01.981637
+----------------------------------------
+store the data in /work2/yuan/DE-DeepONet/results/hyperelasticity/test_dataset
+----------------------------------------
+2024-10-28 00:43:14 - Start Program
+----------------------------------------
+Running: /work2/yuan/DE-DeepONet/data_generation/low_rank_approximations/input_low_rank_approximations.py with 16 ASM input reduced basis.
+----------------------------------------
+2024-10-28 00:43:16 - End Program
+Elapsed time: 0:00:01.946849
+----------------------------------------
+store the data in /work2/yuan/DE-DeepONet/results/hyperelasticity/train_dataset
+----------------------------------------
+2024-10-28 00:43:19 - Start Program
+----------------------------------------
+Running: /work2/yuan/DE-DeepONet/data_generation/low_rank_approximations/input_low_rank_approximations.py with 1 KLE input reduced basis.
+----------------------------------------
+2024-10-28 00:43:21 - End Program
+Elapsed time: 0:00:01.987387
+----------------------------------------
+store the data in /work2/yuan/DE-DeepONet/results/hyperelasticity/test_dataset
+----------------------------------------
+2024-10-28 00:43:24 - Start Program
+----------------------------------------
+Running: /work2/yuan/DE-DeepONet/data_generation/low_rank_approximations/input_low_rank_approximations.py with 1 KLE input reduced basis.
+----------------------------------------
+2024-10-28 00:43:26 - End Program
+Elapsed time: 0:00:01.937460
+----------------------------------------
+store the data in /work2/yuan/DE-DeepONet/results/hyperelasticity/train_dataset
+----------------------------------------
+2024-10-28 00:43:28 - Start Program
+----------------------------------------
+Running: /work2/yuan/DE-DeepONet/data_generation/low_rank_approximations/input_low_rank_approximations.py with 2 KLE input reduced basis.
+----------------------------------------
+2024-10-28 00:43:30 - End Program
+Elapsed time: 0:00:01.972255
+----------------------------------------
+store the data in /work2/yuan/DE-DeepONet/results/hyperelasticity/test_dataset
+----------------------------------------
+2024-10-28 00:43:33 - Start Program
+----------------------------------------
+Running: /work2/yuan/DE-DeepONet/data_generation/low_rank_approximations/input_low_rank_approximations.py with 2 KLE input reduced basis.
+----------------------------------------
+2024-10-28 00:43:35 - End Program
+Elapsed time: 0:00:02.149419
+----------------------------------------
+store the data in /work2/yuan/DE-DeepONet/results/hyperelasticity/train_dataset
+----------------------------------------
+2024-10-28 00:43:38 - Start Program
+----------------------------------------
+Running: /work2/yuan/DE-DeepONet/data_generation/low_rank_approximations/input_low_rank_approximations.py with 4 KLE input reduced basis.
+----------------------------------------
+2024-10-28 00:43:40 - End Program
+Elapsed time: 0:00:02.096496
+----------------------------------------
+store the data in /work2/yuan/DE-DeepONet/results/hyperelasticity/test_dataset
+----------------------------------------
+2024-10-28 00:43:43 - Start Program
+----------------------------------------
+Running: /work2/yuan/DE-DeepONet/data_generation/low_rank_approximations/input_low_rank_approximations.py with 4 KLE input reduced basis.
+----------------------------------------
+2024-10-28 00:43:45 - End Program
+Elapsed time: 0:00:01.974448
+----------------------------------------
+store the data in /work2/yuan/DE-DeepONet/results/hyperelasticity/train_dataset
+----------------------------------------
+2024-10-28 00:43:48 - Start Program
+----------------------------------------
+Running: /work2/yuan/DE-DeepONet/data_generation/low_rank_approximations/input_low_rank_approximations.py with 8 KLE input reduced basis.
+----------------------------------------
+2024-10-28 00:43:50 - End Program
+Elapsed time: 0:00:01.981930
+----------------------------------------
+store the data in /work2/yuan/DE-DeepONet/results/hyperelasticity/test_dataset
+----------------------------------------
+2024-10-28 00:43:52 - Start Program
+----------------------------------------
+Running: /work2/yuan/DE-DeepONet/data_generation/low_rank_approximations/input_low_rank_approximations.py with 8 KLE input reduced basis.
+----------------------------------------
+2024-10-28 00:43:54 - End Program
+Elapsed time: 0:00:01.962299
+----------------------------------------
+store the data in /work2/yuan/DE-DeepONet/results/hyperelasticity/train_dataset
+----------------------------------------
+2024-10-28 00:43:57 - Start Program
+----------------------------------------
+Running: /work2/yuan/DE-DeepONet/data_generation/low_rank_approximations/input_low_rank_approximations.py with 16 KLE input reduced basis.
+----------------------------------------
+2024-10-28 00:43:59 - End Program
+Elapsed time: 0:00:01.997053
+----------------------------------------
+store the data in /work2/yuan/DE-DeepONet/results/hyperelasticity/test_dataset
+----------------------------------------
+2024-10-28 00:44:02 - Start Program
+----------------------------------------
+Running: /work2/yuan/DE-DeepONet/data_generation/low_rank_approximations/input_low_rank_approximations.py with 16 KLE input reduced basis.
+----------------------------------------
+2024-10-28 00:44:04 - End Program
+Elapsed time: 0:00:01.958197
+----------------------------------------
+----------------------------------------
+2024-10-28 00:44:06 - Start Program
+----------------------------------------
+Running: /work2/yuan/DE-DeepONet/data_generation/low_rank_approximations/hyperelasticity_output_low_rank_appproximations.py with 64 POD output reduced basis.
+----------------------------------------
+2024-10-28 00:44:14 - End Program
+Elapsed time: 0:00:07.487348
+----------------------------------------
+----------------------------------------
+2024-10-28 00:44:17 - Start Program
+----------------------------------------
+Running: /work2/yuan/DE-DeepONet/data_generation/low_rank_approximations/hyperelasticity_output_low_rank_appproximations.py with 64 ASM output reduced basis.
+----------------------------------------
+2024-10-28 00:44:24 - End Program
+Elapsed time: 0:00:07.425638
+----------------------------------------
+run with ASM basis, store the data in /work2/yuan/DE-DeepONet/results/hyperelasticity/train_dataset
+----------------------------------------
+2024-10-28 00:44:28 - Start Program
+----------------------------------------
+Running: /work2/yuan/DE-DeepONet/data_generation/derivative_labels/hyperelasticity_derivative_m_labels.py with 64 processors
+Generating dm labels elapsed time (rank 0, 24 samples): 0 m 7.4965 s
+----------------------------------------
+2024-10-28 00:44:36 - End Program
+Elapsed time: 0:00:08.328701
+----------------------------------------
+run with ASM basis, store the data in /work2/yuan/DE-DeepONet/results/hyperelasticity/test_dataset
+----------------------------------------
+2024-10-28 00:44:45 - Start Program
+----------------------------------------
+Running: /work2/yuan/DE-DeepONet/data_generation/derivative_labels/hyperelasticity_derivative_m_labels.py with 64 processors
+Generating dm labels elapsed time (rank 0, 8 samples): 0 m 2.5158 s
+----------------------------------------
+2024-10-28 00:44:48 - End Program
+Elapsed time: 0:00:03.059316
+----------------------------------------
+run with KLE basis, store the data in /work2/yuan/DE-DeepONet/results/hyperelasticity/train_dataset
+----------------------------------------
+2024-10-28 00:44:54 - Start Program
+----------------------------------------
+Running: /work2/yuan/DE-DeepONet/data_generation/derivative_labels/hyperelasticity_derivative_m_labels.py with 64 processors
+Generating dm labels elapsed time (rank 0, 24 samples): 0 m 7.4746 s
+----------------------------------------
+2024-10-28 00:45:02 - End Program
+Elapsed time: 0:00:08.197479
+----------------------------------------
+run with KLE basis, store the data in /work2/yuan/DE-DeepONet/results/hyperelasticity/test_dataset
+----------------------------------------
+2024-10-28 00:45:12 - Start Program
+----------------------------------------
+Running: /work2/yuan/DE-DeepONet/data_generation/derivative_labels/hyperelasticity_derivative_m_labels.py with 64 processors
+Generating dm labels elapsed time (rank 0, 8 samples): 0 m 2.6738 s
+----------------------------------------
+2024-10-28 00:45:15 - End Program
+Elapsed time: 0:00:03.407846
+----------------------------------------
+run with Random basis, store the data in /work2/yuan/DE-DeepONet/results/hyperelasticity/train_dataset
+----------------------------------------
+2024-10-28 00:45:21 - Start Program
+----------------------------------------
+Running: /work2/yuan/DE-DeepONet/data_generation/derivative_labels/hyperelasticity_derivative_m_labels.py with 64 processors
+Generating dm labels elapsed time (rank 0, 24 samples): 0 m 7.4509 s
+----------------------------------------
+2024-10-28 00:45:29 - End Program
+Elapsed time: 0:00:08.433036
+----------------------------------------
+run with Random basis, store the data in /work2/yuan/DE-DeepONet/results/hyperelasticity/test_dataset
+----------------------------------------
+2024-10-28 00:45:38 - Start Program
+----------------------------------------
+Running: /work2/yuan/DE-DeepONet/data_generation/derivative_labels/hyperelasticity_derivative_m_labels.py with 64 processors
+Generating dm labels elapsed time (rank 0, 8 samples): 0 m 2.5402 s
+----------------------------------------
+2024-10-28 00:45:42 - End Program
+Elapsed time: 0:00:03.135495
+----------------------------------------
+store the data in /work2/yuan/DE-DeepONet/results/hyperelasticity/train_dataset
+----------------------------------------
+2024-10-28 00:45:48 - Start Program
+----------------------------------------
+Running: /work2/yuan/DE-DeepONet/data_generation/derivative_labels/hyperelasticity_derivative_x_labels.py with 64 processors
+Generate dx labels elapsed time (rank 0, 24 samples): 0 m 3.5198 s
+----------------------------------------
+2024-10-28 00:45:52 - End Program
+Elapsed time: 0:00:04.093446
+----------------------------------------
+store the data in /work2/yuan/DE-DeepONet/results/hyperelasticity/test_dataset
+----------------------------------------
+2024-10-28 00:45:58 - Start Program
+----------------------------------------
+Running: /work2/yuan/DE-DeepONet/data_generation/derivative_labels/hyperelasticity_derivative_x_labels.py with 64 processors
+Generate dx labels elapsed time (rank 0, 8 samples): 0 m 1.1952 s
+----------------------------------------
+2024-10-28 00:46:00 - End Program
+Elapsed time: 0:00:01.844969
+----------------------------------------
+----------------------------------------
+2024-10-28 00:46:05 - Start Program
+----------------------------------------
+Running: /work2/yuan/DE-DeepONet/data_generation/testing_dm/GRF_bilaplacian_2D_for_testing_dm.py with 64 processors
+----------------------------------------
+2024-10-28 00:46:05 - End Program
+Elapsed time: 0:00:00.661352
+----------------------------------------
+----------------------------------------
+2024-10-28 00:46:09 - Start Program
+----------------------------------------
+Running: /work2/yuan/DE-DeepONet/data_generation/testing_dm/hyperelasticity_derivative_m_labels_for_testing_dm.py with 64 processors
+----------------------------------------
+2024-10-28 00:46:28 - End Program
+Elapsed time: 0:00:18.306381
+----------------------------------------
+----------------------------------------
+2024-10-28 00:46:39 - Start Program
+----------------------------------------
+Running: /work2/yuan/DE-DeepONet/data_generation/testing_dm/transformation_matrices.py
+----------------------------------------
+2024-10-28 00:46:39 - End Program
+Elapsed time: 0:00:00.150145
+----------------------------------------
+run with ASM input basis and POD output basis
+----------------------------------------
+2024-10-28 00:46:43 - Start Program
+----------------------------------------
+Running: /work2/yuan/DE-DeepONet/data_generation/derivative_labels/hyperelasticity_reduced_jacobian_labels.py with 64 processors
+----------------------------------------
+2024-10-28 00:46:53 - End Program
+Elapsed time: 0:00:10.049409
+----------------------------------------
+run with ASM input basis and ASM output basis
+----------------------------------------
+2024-10-28 00:46:57 - Start Program
+----------------------------------------
+Running: /work2/yuan/DE-DeepONet/data_generation/derivative_labels/hyperelasticity_reduced_jacobian_labels.py with 64 processors
+----------------------------------------
+2024-10-28 00:47:07 - End Program
+Elapsed time: 0:00:09.096835
+----------------------------------------
+----------------------------------------
+2024-10-28 00:47:10 - Start Program
+----------------------------------------
+Running: /work2/yuan/DE-DeepONet/data_generation/others/compute_dm_direction_vertex_values.py
+----------------------------------------
+2024-10-28 00:47:10 - End Program
+Elapsed time: 0:00:00.579125
+----------------------------------------
+----------------------------------------
+2024-10-28 00:47:13 - Start Program
+----------------------------------------
+Running: /work2/yuan/DE-DeepONet/data_generation/others/compute_dm_direction_vertex_values.py
+----------------------------------------
+2024-10-28 00:47:13 - End Program
+Elapsed time: 0:00:00.582344
+----------------------------------------
+----------------------------------------
+2024-10-28 00:47:16 - Start Program
+----------------------------------------
+Running: /work2/yuan/DE-DeepONet/data_generation/others/compute_dm_direction_vertex_values.py
+----------------------------------------
+2024-10-28 00:47:17 - End Program
+Elapsed time: 0:00:00.581669
+----------------------------------------
+----------------------------------------
+2024-10-28 00:47:19 - Start Program
+----------------------------------------
+Running: /work2/yuan/DE-DeepONet/data_generation/others/compute_dm_direction_vertex_values.py
+----------------------------------------
+2024-10-28 00:47:20 - End Program
+Elapsed time: 0:00:00.707751
+----------------------------------------
+16 total processes failed to start

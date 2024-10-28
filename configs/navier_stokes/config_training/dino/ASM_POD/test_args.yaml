@@ -1,0 +1,14 @@
+num_test_functions: 500
+num_test_dm_directions: 128
+num_input_reduced_basis: 16
+num_output_reduced_basis: 64
+batch_size: 8
+loss_weights.dm: 1.0
+loss_weights.dx: null
+loss_weights.coeff: 1.0
+test_milestones:
+- 128
+- 512
+- 2048
+- 8192
+- 32768

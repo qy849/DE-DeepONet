@@ -1,0 +1,25 @@
+name: nn1
+
+output_dim: 2
+
+branch:
+  class: ConvolutionalNN_65
+  params: 
+    output_dim: 256
+    activation: relu
+    init_func: kaiming_uniform
+
+trunk:
+  class: ResNet1d
+  params: 
+    input_dim: 64
+    output_dim: 512
+    hidden_dim: 512
+    hidden_depth: 3 
+    activation: relu
+    init_func: kaiming_uniform
+
+positional_encoding:
+  sigma: 1
+  input_dim: 2
+  output_dim: 64

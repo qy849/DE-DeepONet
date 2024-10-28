@@ -1,0 +1,5 @@
+length_x: 1.0  # Length of the domain in the x-axis
+length_y: 1.0  # Length of the domain in the y-axis
+num_x: 64  # Number of cells in the x-axis
+num_y: 64  # Number of cells in the y-axis
+diagonal: 'crossed' 

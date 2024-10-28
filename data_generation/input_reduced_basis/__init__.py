@@ -1,0 +1,1 @@
+from .navier_stokes_ASM_input_reduced_basis import ModifiedInputActiveOperator # noqa

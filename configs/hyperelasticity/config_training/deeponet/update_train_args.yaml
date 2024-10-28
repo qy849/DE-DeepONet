@@ -1,0 +1,8 @@
+num_train_functions:
+- 16
+- 64
+- 256
+- 1024
+
+iterations: 32768
+debug: true

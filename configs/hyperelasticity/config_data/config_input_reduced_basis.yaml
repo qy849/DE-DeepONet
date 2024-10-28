@@ -1,0 +1,15 @@
+ASM: 
+  num_reduced_basis: 16
+  num_grad: 16
+  oversampling: 10  
+  seed: 0
+
+KLE:
+  num_reduced_basis: 16
+  oversampling: 10
+  seed: 0
+
+Random:
+  num_reduced_basis: 16
+  seed: 128
+

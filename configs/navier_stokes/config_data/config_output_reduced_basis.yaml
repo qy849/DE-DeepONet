@@ -1,0 +1,12 @@
+ASM: 
+  num_reduced_basis: 64
+  num_grad: 64
+  oversampling: 10  
+  seed: 0
+
+POD:
+  num_reduced_basis: 64
+  num_eval: 64
+  oversampling: 10
+  seed: 0
+
