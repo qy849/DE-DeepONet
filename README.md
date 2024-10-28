@@ -80,6 +80,13 @@ Explanations of some configuration variables:
  - test_milestones: a list of int; the iteration milestones at which the model is tested on the test dataset
 
 ### Citation
-If you found this repository useful, you can cite our paper in the following bibtex format:
+If you find this repository useful, you can cite our paper in the following bibtex format:
 
-TBD
+```
+@article{qiu2024derivative,
+  title={Derivative-enhanced Deep Operator Network},
+  author={Qiu, Yuan and Bridges, Nolan and Chen, Peng},
+  journal={arXiv preprint arXiv:2402.19242},
+  year={2024}
+}
+```
